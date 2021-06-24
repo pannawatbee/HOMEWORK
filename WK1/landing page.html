@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+        }
+
+        html {
+            background-color: darkgray;
+        }
+
+
+
+
+        .center {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            font-size: 3vw;
+            /* border:3px solid black; */
+            transform: translate(-50%, 0px);
+
+        }
+
+        .center1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 4vw;
+            transform: translate(-50%, 0px);
+
+        }
+
+        .center2 {
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            font-size: 3vw;
+            transform: translate(-50%, 0px);
+        }
+
+        .button {
+            position: absolute;
+            font-size: 5vw;
+            left: 50%;
+            top: 80%;
+            transform: translate(-50%, 0px);
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+    <!-- <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="float:right"><a href="#about">About</a></li>
+    </ul> -->
+
+    <div class="container">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="float:right"><a href="#about">About</a></li>
+        </ul>
+        <img src="https://images.unsplash.com/photo-1514565131-fce0801e5785?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=80"
+            alt="" width="100%">
+
+        <div class="center">Ambition is the first step towards</div>
+        <div class="center1">SUCCESS</div>
+        <div class="center2">NOW AVAILABLE FOR COACHING</div>
+        <button class="button">Submit</button>
+
+    </div>
+
+
+</body>
+
+</html>

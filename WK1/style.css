@@ -1,0 +1,204 @@
+/* Global */
+html {
+    background-color: darkgray;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+    max-width: 1600px;
+    margin: auto;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .fs16 {
+    font-size: 16px;
+  }
+  
+  /* Header Area */
+  header {
+    background-color: skyblue;
+    color: whitesmoke;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px salmon solid;
+  }
+  
+  header .branding {
+    float: left;
+  }
+  
+  header .branding span,
+  .current {
+    color: deeppink;
+    font-weight: bold;
+  }
+  
+  header nav {
+    float: right;
+    margin-top: 15px;
+  }
+  
+  header ul {
+    color: whitesmoke;
+  }
+  
+  header li {
+    display: inline;
+    padding: 0 20px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  header a:hover {
+    color: violet;
+    font-weight: bold;
+  }
+  
+  /* ShowCase */
+  
+  .showcase {
+    /* border: 1px dashed lime; */
+    min-height: 400px;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.3) 100%
+      ),
+      url("https://picsum.photos/id/2/1500/500/?blur=4") no-repeat 0 0;
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+  
+  .showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+  }
+  
+  .showcase p {
+    font-size: 20px;
+    color: deeppink;
+  }
+  
+  /* NewsLetter */
+  
+  .newsletter {
+    padding: 15px;
+    background-color: lightskyblue;
+    /* color: rgba(250, 10, 198, 0.801); */
+    color: coral;
+  }
+  
+  /* .newsletter .container {
+    display: flex;
+    justify-content: space-between;
+  } */
+  
+  .newsletter h1 {
+    float: left;
+  }
+  
+  .newsletter form {
+    float: right;
+  }
+  
+  .newsletter input[type="email"] {
+    width: 250px;
+    height: 25px;
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .newsletter button {
+    height: 35px;
+    background-color: coral;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 0 20px;
+  }
+  
+  /* Boxes */
+  
+  .boxes {
+    margin-top: 20px;
+  }
+  
+  .boxes .box {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 12px;
+  }
+  
+  .boxes .box img {
+    /* width: 90px; */
+    height: 100px;
+  }
+  
+  /* About US */
+  .main {
+    font-size: 18px;
+  }
+  
+  article.main-col {
+    float: left;
+    width: 65%;
+    margin-top: 10px;
+  }
+  
+  aside.sidebar {
+    float: right;
+    width: 30%;
+    background-color: violet;
+    padding: 15px;
+    color: white;
+    margin-top: 35px;
+    border-radius: 4px;
+  }
+  
+  /* Services */
+  ul.services li {
+    padding: 15px;
+    background-color: khaki;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    color: deeppink;
+  }
+  
+  /* Footer */
+  
+  footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: whitesmoke;
+    background-color: skyblue;
+    text-align: center;
+  }
+  
